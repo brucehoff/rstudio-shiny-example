@@ -1,5 +1,5 @@
 FROM rocker/shiny
 
-RUN mkdir -p /srv/shinyapps/example
-COPY * /srv/shinyapps/example/
+RUN mkdir -p /srv/shiny-server/example
+COPY * /srv/shiny-server/example/
 
