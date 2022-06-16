@@ -37,6 +37,4 @@ jobs:
           sudo apt-get update
 
 
-        shell: Rscript {0}
-
 
